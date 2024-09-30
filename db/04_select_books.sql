@@ -20,11 +20,15 @@ BETWEEN '1900-01-01' AND '1999-12-31';
 
 \echo '\n Here are all the books with "The" in the title:\n'
 SELECT * FROM books
-WHERE title SIMILAR TO '% the %';
+WHERE title SIMILAR TO 'The %';
 
 
 \echo '\n Here are the books sorted in alphabetical order:\n'
-
+SELECT * FROM books
+ORDER BY title ASC;
 
 
 \echo '\n Here is the most expensive book:\n'
+SELECT * FROM books
+ORDER BY price_in_pence DESC
+LIMIT 1;
