@@ -14,10 +14,7 @@ END;
 
 
 
-SELECT *
-FROM books
-JOIN authors
-ON books.author_name = authors.author_name;
+
 
 
 
