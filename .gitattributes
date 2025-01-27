@@ -1,3 +1,3 @@
-db/*.sql linguistic-language=sql
-run-all.sh linguistic-language=shell
-*.md linguistic-documentation
+db/*.sql linguist-language=SQL
+run-all.sh linguist-language=Shell
+*.md linguist-documentation
