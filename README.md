@@ -1,5 +1,5 @@
 
-# Bookshop Inventory Modernisation https://l2c.northcoders.com/courses/data-fun/sql-bookshop
+# Bookshop Inventory Modernisation 
 Overview
 This project involved modernising the inventory records of a local bookshop by implementing a PostgreSQL database to manage and organise data more efficiently. The goal was to replace outdated manual record-keeping with a more robust and scalable solution using SQL and PostgreSQL's features. This database allows for the management of books, authors, genres, and their relationships, providing the bookshop with a flexible system to handle daily operations such as tracking stock, sales, and inventory.
 
@@ -25,6 +25,8 @@ Key Features
 - Books and Genres Relationship: Implemented a many-to-many relationship between books and genres using a junction table.
 - SQL Queries: Use of SELECT, JOIN, UPDATE, DELETE, and aggregate functions to query and manipulate the data.
 - Reports: Ability to generate reports on stock, sales, and book categories using aggregate functions and complex queries.
+
+Tasks taken from Northcoder's Bootcamp: https://l2c.northcoders.com/courses/data-fun/sql-bookshop
 
 
 
